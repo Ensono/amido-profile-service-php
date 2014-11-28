@@ -1,0 +1,27 @@
+{
+    "name": "amido/profile-service",
+    "description": "PHP Library to access the Amido profile service",
+    "require": {
+        "nategood/httpful": "~0.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.3.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    },
+    "autoload-dev": {
+        "psr-0": {
+            "Amido\\ProfileService": "tests"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Antony Koch",
+            "email": "ant@iamkoch.com"
+        }
+    ]
+}
