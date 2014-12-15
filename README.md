@@ -11,7 +11,7 @@ Add this to your application's composer.json:
 ```php
 {
     "require": {
-        "nategood/httpful": "*"
+        "amido/profile-service": "*"
     }
 }
 ```
